@@ -24,7 +24,7 @@ module.exports = connectDB;
 
 dotenv.config();
 
-const authRoutes = require("./routes/authRoutes");
+const authRoutes = require("./Routes/authRoutes");
 
 const app = express();
 
